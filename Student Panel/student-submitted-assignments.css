@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+	background-color: indigo;
+}
+.modal-content{
+	background-color: rgba(29, 111, 224,1);
+	border-radius: 10px;
+	height: max-content;
+	padding: 1rem;
+	width: 70%;
+}
+textarea{
+	max-height: 7rem;
+}
+.upload-btn{
+	height: max-content;
+}

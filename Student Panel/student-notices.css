@@ -1,0 +1,16 @@
+.student-panel-notices {
+  margin: 5rem 0rem;
+}
+.student-notices {
+  background: whitesmoke;
+  border-radius: 0.8rem;
+}
+.student-notices .studentNotice img {
+  width: 40px;
+  background: rgb(105, 213, 247);
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+.student-notices .studentNotice .badge {
+  background: #be71f5;
+}
