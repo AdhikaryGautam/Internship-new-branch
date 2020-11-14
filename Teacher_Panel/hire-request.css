@@ -1,0 +1,16 @@
+.hire-panel {
+  margin: 20rem 0rem;
+}
+.hireRequests .hireRequest a {
+  color: #000000;
+}
+.hireRequests .hireRequest .btns {
+  background: #1f9aa3;
+  color: #ffffff;
+}
+.hireRequests .hireRequest .icons {
+  color: rgb(241, 7, 7);
+}
+.hireRequests .hireRequest .timing {
+  background: rgb(255, 174, 0);
+}

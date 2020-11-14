@@ -1,0 +1,17 @@
+.enrollRequests .enrollRequest {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+.enrollRequests .enrollRequest a {
+  color: #000000;
+}
+.enrollRequests .enrollRequest .btns {
+  background: #1f9aa3;
+  color: #ffffff;
+}
+.enrollRequests .enrollRequest .icons {
+  color: rgb(241, 7, 7);
+}
+.enrollRequests .enrollRequest .timing {
+  background: rgb(255, 174, 0);
+}
