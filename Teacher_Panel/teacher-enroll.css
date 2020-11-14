@@ -1,17 +1,20 @@
-.enrollRequests .enrollRequest {
+.teacher-panel {
+  margin: 8rem 0rem;
+}
+.teacher-panel .enrollRequests .enrollRequest {
   padding: 0.8rem;
   border-radius: 0.5rem;
 }
-.enrollRequests .enrollRequest a {
+.teacher-panel .enrollRequests .enrollRequest a {
   color: #000000;
 }
-.enrollRequests .enrollRequest .btns {
+.teacher-panel .enrollRequests .enrollRequest .btns {
   background: #1f9aa3;
   color: #ffffff;
 }
-.enrollRequests .enrollRequest .icons {
+.teacher-panel .enrollRequests .enrollRequest .icons {
   color: rgb(241, 7, 7);
 }
-.enrollRequests .enrollRequest .timing {
+.teacher-panel .enrollRequests .enrollRequest .timing {
   background: rgb(255, 174, 0);
 }

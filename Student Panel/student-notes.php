@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
+    <title>Tutor Finder</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="teacher-notes-upload.css">
+    <link rel="stylesheet" href="student-notes.css">
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
 
@@ -19,76 +19,18 @@
 </head>
 
 <body>
-   <?php include "./header.php" ?>
+
 <!--START OF TEACHER-PANEL SECTION -->
 
-<section class="teacher-panel">
+<?php include "./header.php" ?>
 
-    <div class="container notesUpload px-5 mb-2">
+<section class="student-panel">
+
+    <div class="container notesUpload px-5">
 
         <h3 class="ml-3 ">Notes</h3>
 
         <hr>
-
-        <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
-            <h5 class="font-weight-bold mb-3">Upload notes</h5>
-            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#myModal">Upload  <span><i class="fas fa-cloud-upload-alt"></i></span></a>
-
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="row">
-                        <div class="col-7">
-                            <h4>Upload Notes</h4>
-                        </div>
-                        <div class="col-5">
-                             <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
-                        </div>
-                    </div>
-                    <form action="#/" class="mt-0 ">
-                    <hr>      
-                        <div class="form-group ">
-                            <label for="noteTitle">Title</label>
-                            <div class="input-group">
-                                <input type="text" id="noteTitle" class="form-control" placeholder="Title of the note"
-                                    required />
-                            </div>
-
-                            <label for="noteDescription" class="mt-2">Description</label>
-                            <div class="input-group">
-                                <textarea id="noteDescription" class="form-control" > </textarea>
-                            </div>
-                        </div>
-                
-                        <div class="form-group text-center ">
-                            <div class="parent">
-                                <label for="uploadNotes" class="btn text-white mb-0">
-                                    <span><i class="fas fa-cloud-upload-alt mr-2"></i></span>Choose File
-                                    <input id="uploadNotes" class="file-upload" type="file" hidden required />
-                                </label>
-                                <p class="file-upload-filename"></p>
-                            </div>
-                        </div>
-
-                        <div class="text-center mt-2">
-                            <button type="button" class="btn text-white px-3">
-                                Upload<span><i class="fas fa-paper-plane ml-2"></i></span>
-                            </button>
-                        </div>         
-                    </form>
-
-                </div>
-              </div>
-            </div>
-
-        </div>
-
-        <hr>
-
-        <h4 class="text-center font-weight-bold">Uploaded notes</h4>
-
-        <hr>
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
@@ -100,7 +42,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -118,7 +60,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -136,7 +78,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -154,7 +96,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -172,7 +114,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -190,7 +132,7 @@
                 <div>
                     <p><strong>Last modified</strong>: an hour ago</p>
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Download  <span><i class="fas fa-cloud-download-alt"></i></span></a>
-                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">Delete  <span><i class="far fa-trash-alt"></i></span></a>
+                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0">View</a>
                 </div>
 
             </div>
@@ -199,15 +141,13 @@
 
 </section>
 
-
- <?php include "./footer.php" ?>
-
+<?php include "./footer.php" ?>
 
 <!--Javascipt-->
 
     <script>
 
-        var fileNames = document.querySelectorAll('.notesUpload .modal .file-upload');
+        var fileNames = document.querySelectorAll('.upload-notes .card .file-upload');
         Array.from(fileNames).forEach(function (fileName) {
             fileName.addEventListener('change', function (e) {
 

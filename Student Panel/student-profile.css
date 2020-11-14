@@ -1,65 +1,61 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
 .student-panel {
-  margin: 5rem 0rem;
+  margin: 8rem 0rem;
 }
-.profileBox {
+.student-panel .profileBox {
   background: linear-gradient(120deg, #2669d4 0%, #52c2f7 100%);
   padding: 1.2rem;
   border-radius: 0.5rem;
   color: #000000;
 }
-.profileBox img {
+.student-panel .profileBox img {
   border-radius: 50%;
   width: 70%;
   border: 8px solid #ffffff;
 }
-.btn {
+.student-panel .btn {
   background-color: #4b0082;
   color: white;
   border-radius: 0.3rem;
   cursor: pointer;
 }
-.btn:hover {
+.student-panel .btn:hover {
   color: white;
 }
-.editBox {
+.student-panel .editBox {
   background: linear-gradient(120deg, #2669d4 0%, #52c2f7 100%);
   padding: 1.2rem;
   border-radius: 0.5rem;
 }
-.editBox .nav-link {
+.student-panel .editBox .nav-link {
   position: relative;
   background: #3c8af0;
   border-radius: 50%;
   padding: 0.8rem 1.15rem;
   color: #ffffff;
 }
-.editBox .nav-link.payement {
+.student-panel .editBox .nav-link.payement {
   padding: 0.8rem 0.9rem;
 }
-.editBox .nav-link:focus,
-.editBox .nav-link:active,
-.editBox .nav-link.active {
+.student-panel .editBox .nav-link:focus,
+.student-panel .editBox .nav-link:active,
+.student-panel .editBox .nav-link.active {
   background-color: #070052;
   border-color: #000000;
   color: white;
 }
-.editBox .modal-body,
-.editBox .card {
+.student-panel .editBox .modal-body,
+.student-panel .editBox .card {
   cursor: pointer;
 }
-.editBox .nav-link span {
+.student-panel .editBox .nav-link span {
   position: absolute;
   border-radius: 50%;
   top: 70%;
 }
-.editBox .modal {
+.student-panel .editBox .modal {
   margin-top: 17vh;
 }
-tr:hover {
+.student-panel tr:hover {
   background-color: #f5f5f5;
   color: #000000;
 }

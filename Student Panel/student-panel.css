@@ -1,6 +1,6 @@
-/* .teacherPanel {
-  padding: 1rem;
-} */
+.studentPanel {
+  margin: 8rem 0rem;
+}
 .mainstudentPanel .hello,
 .mainstudentPanel .notifications {
   background-color: #f5f5f5;

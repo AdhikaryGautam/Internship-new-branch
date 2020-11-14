@@ -23,8 +23,8 @@
 
 <!--START OF TEACHER-PANEL SECTION -->
 
-<section class="teacher-panel mt-5 mb-5">
-    <div class="container asssignmentSubmissions border p-4">
+<section class="teacher-panel">
+    <div class="container asssignmentSubmissions border">
 
         <h4 class="ml-3 mb-3">Assignment-1</h4>
 
@@ -67,8 +67,15 @@
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
 
-                                    <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
-                                    <form action="#" class="mt-0 text-white">      
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <h4>Send feedback</h4>
+                                        </div>
+                                        <div class="col-5">
+                                             <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
+                                        </div>
+                                    </div>
+                                    <form action="#" class="mt-0">      
                                         <div class="form-group ">
                                             <label for="feedbackTitle" class="font-weight-bold ">Title</label>
                                             <div class="input-group">

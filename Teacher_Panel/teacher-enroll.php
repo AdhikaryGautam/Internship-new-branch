@@ -77,6 +77,17 @@
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
+
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
+                            </div>
                             </form>
                         </div>
 
@@ -182,10 +193,20 @@
 
                         <!-- Modal body -->
                         <div class="modal-body">
-                            <form action="#/"></form>
+                            <form action="#/">
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
                             </div>
                             </form>
                         </div>
@@ -252,10 +273,20 @@
 
                         <!-- Modal body -->
                         <div class="modal-body">
-                            <form action="#/"></form>
+                            <form action="#/">
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
                             </div>
                             </form>
                         </div>
@@ -322,10 +353,20 @@
 
                         <!-- Modal body -->
                         <div class="modal-body">
-                            <form action="#/"></form>
+                            <form action="#/">
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
                             </div>
                             </form>
                         </div>

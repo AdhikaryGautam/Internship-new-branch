@@ -1,21 +1,21 @@
 .teacher-panel {
-  margin-top: 3rem;
+  margin: 8rem 0rem;
 }
-.card:hover {
+.teacher-panel .card:hover {
   border: 1px solid black;
   border-radius: 5px;
 }
-::-webkit-scrollbar {
+.teacher-panel ::-webkit-scrollbar {
   width: 6px;
 }
-::-webkit-scrollbar-track {
+.teacher-panel ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb {
+.teacher-panel ::-webkit-scrollbar-thumb {
   background: #9644d1;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:hover {
+.teacher-panel ::-webkit-scrollbar-thumb:hover {
   background: #622191;
 }

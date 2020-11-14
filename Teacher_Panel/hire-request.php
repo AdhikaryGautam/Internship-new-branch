@@ -19,8 +19,13 @@
 
 <body>
     <?php include "./header.php" ?>
-    <section class="hire-panel ">
-        <div class="container hireRequests mt-4">
+
+
+
+
+
+    <section class="hirePanel">
+        <div class="container hireRequests">
             <div class="hireRequest col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>

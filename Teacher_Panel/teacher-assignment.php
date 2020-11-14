@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="teacher-assignment.css">
+    <link rel="stylesheet" href="./teacher-assignment.css">
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
 
@@ -22,9 +22,9 @@
        <?php include "./header.php" ?>
     <!--START OF TEACHER-PANEL SECTION -->
 
-    <section class="teacher-panel mt-5">
+    <section class="teacher-panel">
 
-        <div class="container assignmentUpload px-5 mb-2">
+        <div class="container assignmentUpload">
 
             <h3 class="ml-3 ">Assignment</h3>
 
@@ -41,8 +41,15 @@
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
 
-                            <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
-                            <form action="#" class="mt-0 text-white">
+                            <div class="row">
+                            <div class="col-7">
+                                <h4>Upload Assignments</h4>
+                            </div>
+                            <div class="col-5">
+                                 <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
+                            </div>
+                    </div>
+                            <form action="#" class="mt-0 ">
                                 <div class="form-group ">
                                     <label for="noteTitle">Title</label>
                                     <div class="input-group">
@@ -56,11 +63,11 @@
                                     </div>
 
                                     <label for="startDate" class="mt-3 d-block">Start date:</label>
-                                    <input type="date" id="startDate" name="startDate">
+                                    <input class="form-control" type="datetime-local" value="2020-12-19T13:45:00" id="startDate" name="startDate">
 
 
-                                    <label for="startDate" class="mt-3 d-block">Due date:</label>
-                                    <input type="date" id="startDate" name="startDate">
+                                    <label for="dueDate" class="mt-3 d-block">Due date:</label>
+                                    <input class="form-control" type="datetime-local" value="2021-10-19T13:45:00" id="dueDate" name="dueDate">
                                 </div>
 
                                 <div class="form-group text-center ">
