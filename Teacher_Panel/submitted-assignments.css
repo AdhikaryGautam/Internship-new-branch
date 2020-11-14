@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.asssignmentSubmissions .btn {
+  background-color: indigo;
+}
+.asssignmentSubmissions .modal-content {
+  background-color: rgba(29, 111, 224, 1);
+  border-radius: 10px;
+  height: max-content;
+  padding: 1rem;
+  width: 70%;
+}
+.asssignmentSubmissions textarea {
+  max-height: 7rem;
+}

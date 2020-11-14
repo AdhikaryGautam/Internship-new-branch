@@ -1,0 +1,31 @@
+.notesUpload .notes {
+  background: linear-gradient(120deg, #2669d4 0%, #52c2f7 100%);
+  border-radius: 2px;
+  padding: 0.9rem 2rem 0.5rem;
+  width: 80%;
+}
+.notesUpload .notes tbody tr:hover {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+.notesUpload .notesUpload thead {
+  border: none;
+  background-color: rgba(26, 26, 26, 0.8);
+}
+.notesUpload tbody {
+  background-color: transparent;
+}
+.notesUpload .btn {
+  background-color: indigo;
+  /*border-radius: 7px;*/
+}
+.notesUpload textarea {
+  min-height: 5rem;
+  max-height: 12rem;
+}
+.notesUpload .modal-content {
+  background-color: rgba(29, 111, 224, 1);
+  border-radius: 10px;
+  height: max-content;
+  padding: 1rem;
+}
