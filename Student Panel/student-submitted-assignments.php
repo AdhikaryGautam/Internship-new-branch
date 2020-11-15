@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="student-submitted-assignments.css">
+    <link rel="stylesheet" href="./student-submitted-assignments.css">
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
 
@@ -24,10 +24,10 @@
 
 <?php include "./header.php" ?>
 
-<section class="teacher-panel mt-5 mb-5">
-    <div class="container asssignmentSubmissions border p-4">
+<section class="student-panel">
+    <div class="container asssignmentSubmissions border pt-3">
 
-        <h4 class="ml-3 mb-3">Assignment-1<span class="badge badge-success ml-2">Submitted</span></h4>
+        <h4 class="ml-3 mb-3">Assignment-1<span class="badge badge-success badge-pill ml-2">Submitted</span></h4>
 
         <div class="row pl-3">
             <div class="col-12 col-sm-5 col-md-7">
