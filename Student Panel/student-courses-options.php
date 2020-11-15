@@ -29,7 +29,7 @@
         <div class="row py-4 ">   
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="p-3 mx-auto card h-100" style="width:185px">
-                    <img src="https://img.icons8.com/plasticine/100/000000/task.png" style="width:100px" class="mx-auto">
+                    <img src="assignment.png" style="width:100px" class="mx-auto">
                     <h5 class=" text-center">Assignments</h5>
                     <a href="#" class="stretched-link"></a>
                 </div>
@@ -45,7 +45,7 @@
 
             <div class="col-12 col-sm-6 col-md-4 mt-3 mt-md-0">
                 <div class="card p-3 mx-auto" style="width:185px">
-                    <img src="announcement.png" style="width:100px" class="mx-auto">
+                    <img src="megaphone.png" style="width:100px" class="mx-auto">
                     <h5 class="card-title text-center">Announcements</h5>
                     <a href="#" class="stretched-link"></a>
                 </div>

@@ -25,9 +25,9 @@
 <?php include "./header.php" ?>
 
 <section class="student-panel">
-    <div class="container asssignmentSubmissions border">
+    <div class="container asssignmentSubmissions border pt-3">
 
-        <h4 class="ml-3 mb-3">Assignment-1<span class="badge badge-success ml-2">Submitted</span></h4>
+        <h4 class="ml-3 mb-3">Assignment-1<span class="badge badge-success badge-pill ml-2">Submitted</span></h4>
 
         <div class="row pl-3">
             <div class="col-12 col-sm-5 col-md-7">

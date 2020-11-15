@@ -7,10 +7,30 @@
   border-radius: 0.5rem;
   color: #000000;
 }
-.student-panel .profileBox img {
+.student-panel .user-profile .profileBox img {
   border-radius: 50%;
-  width: 70%;
+  width: 200px;
+  height: 185px;
   border: 8px solid #ffffff;
+}
+.student-panel .profilePicture {
+  position: relative;
+}
+.student-panel .profilePicture a {
+  position: absolute;
+  left: 46.5%;
+  bottom: 3%;
+  opacity: 0.6;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.student-panel .profilePicture a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.teacher-panel .user-profile .profileBox .verified {
+  color: green;
+  font-size: 1.6rem;
 }
 .student-panel .btn {
   background-color: #4b0082;
@@ -59,3 +79,41 @@
   background-color: #f5f5f5;
   color: #000000;
 }
+
+/* REPOSNSIVNESS OF THE IMAGE */
+/* MEDIA QUERIES */
+@media all and (max-width: 1200px) and (min-width: 992px) {
+  .teacher-panel .user-profile .profileBox img {
+    border-radius: 50%;
+    width: 193px;
+    height: 180px;
+    border: 8px solid #ffffff;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .student-panel .user-profile .profileBox img {
+    border-radius: 50%;
+    width: 180px;
+    height: 167px;
+    border: 8px solid #ffffff;
+  }
+}
+
+@media all and (max-width: 767px) and (min-width: 576px) {
+  .student-panel .user-profile .profileBox img {
+    border-radius: 50%;
+    width: 180px;
+    height: 167px;
+    border: 8px solid #ffffff;
+  }
+}
+@media screen and (max-width: 575px) {
+  .student-panel .user-profile .profileBox img {
+    border-radius: 50%;
+    width: 180px;
+    height: 167px;
+    border: 8px solid #ffffff;
+  }
+}
+/* END OF MEDIA QUERIES */

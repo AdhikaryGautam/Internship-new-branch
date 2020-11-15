@@ -33,7 +33,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1<span class="badge badge-success ml-2">Submitted</span></h5>
+                    <h5 class="mb-3">Assignment 1<span class="badge badge-success badge-pill ml-2">Submitted</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             
@@ -49,7 +49,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1<span class="badge badge-danger ml-2">Unsubmitted</span></h5>
+                    <h5 class="mb-3">Assignment 1<span class="badge badge-danger badge-pill ml-2">Unsubmitted</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             
@@ -65,7 +65,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1<span class="badge badge-danger ml-2">Overdue</span></h5>
+                    <h5 class="mb-3">Assignment 1<span class="badge badge-danger badge-pill ml-2">Overdue</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             
@@ -81,7 +81,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1<span class="badge badge-success ml-2">Submitted</span></h5>
+                    <h5 class="mb-3">Assignment 1<span class="badge badge-success badge-pill ml-2">Submitted</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             
@@ -97,7 +97,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1 <span class="badge badge-success ml-2">Submitted</span></h5>
+                    <h5 class="mb-3">Assignment 1 <span class="badge badge-success badge-pill ml-2">Submitted</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             
@@ -113,7 +113,7 @@
             <div class="col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
-                    <h5 class="mb-3">Assignment 1 <span class="badge badge-success ml-2">Submitted</span></h5>
+                    <h5 class="mb-3">Assignment 1 <span class="badge badge-success badge-pill ml-2">Submitted</span></h5>
                     <p>This is some description of a assignment</p>
                 </div>
             

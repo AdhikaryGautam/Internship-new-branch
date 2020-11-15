@@ -25,12 +25,23 @@
         <nav class="navbar fixed-top navbar-expand-lg">
 
             <a class="navbar-brand" href="#">
-            	<img src="logo.jpg" height="60px" width="60px">
+            	<img src="./logo.jpg" height="60px" width="60px">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars"></i></span>
             </button>
+             <div class="navbardropdowns d-lg-none p-2 mt-1 ml-2">
+                     <img src="./reviewPic-4.jpeg" alt="DropdownProfilePic" class="img-fluid">
+                     <div class="dropdown-content">
+                         <a class="dropdown-item" href="#/">Dashboard</a>
+                         <a class="dropdown-item" href="#/">Profile</a>
+                         <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#/">Logout</a>
+                     </div>
+                </div>
             <div class="collapse navbar-collapse text-light justify-content-start row" id="navbarSupportedContent">
 
                 
@@ -64,11 +75,22 @@
                                 <span><i class="fa fa-search"></i></span>
                             </form>
                         </li>
-                        <li class="nav-item dropdown hover mr-n5">
+                        <li class="nav-item dropdown hover mr-4">
                             <a class="nav-link pb-0" href="#/">
                                 <span><i class="fas fa-user-check"></i></span>
                                 Login
                             </a>
+                        </li>
+                        <li class="nav-item mr-5 profilePicDropdown p-2 hover mt-1">
+                           <div class="dropdowns">
+                                <img src="./reviewPic-4.jpeg" alt="DropdownProfilePic" class="img-fluid">
+                                <div class="dropdown-content">
+                                    <a class="dropdown-item" href="#/">Dashboard</a>
+                                    <a class="dropdown-item" href="#/">Profile</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#/">Logout</a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +103,7 @@
 
    
     <!--Javascipt-->
-    <script src="./js/script.js"></script>
+   
     <!--JAVSCRIPT CDN OF BOOTSTRAP-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

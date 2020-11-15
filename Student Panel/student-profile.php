@@ -26,9 +26,14 @@
 <section class="student-panel">
     <div class="container user-profile">
         <div class="row">
-            <div class="col-md-4 profileBox text-center">                    
-                <img src="./reviewPic-4.jpeg" alt="" class="img-fluid mt-3">
-                <p class="h3 text-white text-center mb-4">John Doe</p>
+            <div class="col-md-4 profileBox text-center">
+                <div class="profilePicture">                
+                    <img src="reviewPic-4.jpeg" alt="" class="img-fluid mt-3">
+                    <a href="#/" class="text-decoration-none "><span class="d-block editButton" data-toggle="tooltip" data-placement="top" title="Edit Profile" ><i class="fas fa-edit"></i></span></a>
+                </div>                   
+                
+                 <p class="h3 d-inline-flex text-center mt-2 mb-0">John Doe</p>
+                <span class="ml-2 d-inline-flex verified" data-toggle="tooltip" data-placement="top" title="verified" style="color: rgb(7, 230, 26);"><i class="fas fa-check-circle"></i></span>
                 <div class="changeImage mt-2">
                     <input type="file" id="file-button" hidden>
                     <label for="file-button"><button class="btn">Choose photo</button></label>
@@ -39,7 +44,7 @@
                     <li><i class="fas fa-chalkboard-teacher mr-2"></i>Teachers: <span>20</span></li>
                 </ul>
                 <hr>
-                <button class="btn px-5">Edit profile</button>
+               
             </div>
             <div class="col-md-7 editBox ml-md-4 mt-md-0 mt-4">
                  <!-- Nav pills -->
@@ -319,6 +324,19 @@
 <?php include "./footer.php" ?>
 
 <!--Javascipt-->
+
+
+      <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+
+
+
+
+
     <script src="./js/script.js"></script>
     <!--JAVSCRIPT CDN OF BOOTSTRAP-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

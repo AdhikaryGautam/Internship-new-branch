@@ -39,7 +39,6 @@
                             <h5 class="card-title d-inline mr-2">Physics</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 10</span></div>
                             <span class="card-text d-block mt-2">Teacher: Avengers</span>
-                            <span class="card-text d-block">Teacher Id: 10</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -54,7 +53,6 @@
                             <h5 class="card-title d-inline mr-2">Maths</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 4</span></div>
                             <span class="card-text d-block mt-2">Teacher: Biki Pun</span>
-                            <span class="card-text d-block">Teacher Id: 10</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -71,7 +69,6 @@
                             <h5 class="card-title d-inline mr-2">Chemistry</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 8</span></div>
                             <span class="card-text d-block mt-2">Teacher: Ironman</span>
-                            <span class="card-text d-block">Teacher Id: 2</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -88,7 +85,6 @@
                             <h5 class="card-title d-inline mr-2">Biology</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 3</span></div>
                             <span class="card-text d-block mt-2">Teacher: Sahana Gurung</span>
-                            <span class="card-text d-block">Teacher Id: 6</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
