@@ -37,7 +37,7 @@
                     data-target="#myModal">Upload <span><i class="fas fa-cloud-upload-alt"></i></span></a>
 
                 <!-- The Modal -->
-                <div class="modal" id="myModal">
+                <div class="modal fade" id="myModal">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
 

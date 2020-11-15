@@ -33,8 +33,7 @@
                         <div class="card-body">
                             <h5 class="card-title d-inline mr-2">Physics</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 10</span></div>
-                            <span class="card-text d-block mt-2">Group: Avengers</span>
-                            <span class="card-text d-block">Group Id: 10</span>
+                            <span class="card-text d-block mt-2">Group Id: 10</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -49,7 +48,6 @@
                             <h5 class="card-title d-inline mr-2">Maths</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 4</span></div>
                             <span class="card-text d-block mt-2">Student: Biki Pun</span>
-                            <span class="card-text d-block">Student Id: 10</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -65,8 +63,7 @@
                         <div class="card-body h-100">
                             <h5 class="card-title d-inline mr-2">Chemistry</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 8</span></div>
-                            <span class="card-text d-block mt-2">Group: Ironman</span>
-                            <span class="card-text d-block">Group Id: 2</span>
+                            <span class="card-text d-block mt-2">Group Id: 2</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -83,7 +80,6 @@
                             <h5 class="card-title d-inline mr-2">Biology</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 3</span></div>
                             <span class="card-text d-block mt-2">Student: Sahana Gurung</span>
-                            <span class="card-text d-block">Student Id: 6</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -100,7 +96,7 @@
                             <h5 class="card-title d-inline mr-2">Account</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 2</span></div>
                             <span class="card-text d-block mt-2">Student: John Doe</span>
-                            <span class="card-text d-block">Student Id: 21</span>
+                
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -117,7 +113,6 @@
                             <h5 class="card-title d-inline mr-2">Digital Logics</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 1</span></div>
                             <span class="card-text d-block mt-2">Student: Gautam Adhikary</span>
-                            <span class="card-text d-block">Student Id: 6</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -132,8 +127,7 @@
                         <div class="card-body">
                             <h5 class="card-title d-inline mr-2">English</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 2</span></div>
-                            <span class="card-text d-block mt-2">Group: Hello</span>
-                            <span class="card-text d-block">Group Id: 4</span>
+                            <span class="card-text d-block mt-2">Group Id: 4</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>
@@ -149,7 +143,6 @@
                             <h5 class="card-title d-inline mr-2">Social Studies</h5>
                             <div class="mt-2"><span class="badge-pill badge-danger">Code: 6</span></div>
                             <span class="card-text d-block mt-2">Student: Shubha Pradhan</span>
-                            <span class="card-text d-block">Student Id: 8</span>
                             <a href="#/" class="btn d-inline-block mt-2 stretched-link">View More</a>
                         </div>
                     </div>

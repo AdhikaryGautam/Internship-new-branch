@@ -76,7 +76,7 @@
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4 col-6 text-center mt-3">
                                 <a href="#/" class="card mr-1 p-2 h-100">
                                     <div>
-                                        <img src="./hire.png" alt="Profile-Icon">
+                                        <img src="./hiring.png" alt="Profile-Icon">
                                     </div>
                                     <div class="mt-2">
                                         <p class="mb-0">Hire Requests</p>
@@ -87,7 +87,7 @@
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4 col-6 text-center mt-3">
                                 <a href="#/" class="card mr-1 p-2 h-100">
                                     <div>
-                                        <img src="./courses.png" alt="Profile-Icon">
+                                        <img src="./book.png" alt="Profile-Icon">
                                     </div>
                                     <div class="mt-2">
                                         <p class="mb-0">Courses</p>
@@ -122,7 +122,7 @@
                             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4 col-6 text-center mt-3">
                                 <a href="#/" class="card mr-1 p-2 h-100">
                                     <div>
-                                        <img src="./change-password.png" alt="Profile-Icon">
+                                        <img src="./padlock.png" alt="Profile-Icon">
                                     </div>
                                     <div class="mt-2">
                                         <p class="mb-0">Change Password</p>
@@ -145,7 +145,7 @@
                              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4 col-6 text-center mt-3">
                                 <a href="#/" class="card mr-1 p-2 h-100">
                                     <div>
-                                        <img src="./chat.png" alt="Profile-Icon">
+                                        <img src="./edit.png" alt="Profile-Icon">
                                     </div>
                                     <div class="mt-2">
                                         <p class="mb-0">Edit Profile</p>

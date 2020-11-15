@@ -1,8 +1,11 @@
 .teacher-panel-notices {
   margin: 8rem 0rem;
 }
-.teacher-panel-notices .btn {
+.teacher-panel-notices .btns {
   background: indigo;
+}
+.teacher-panel-notices .btns:hover {
+  color: #ffffff;
 }
 .teacher-panel-notices .teacherNotices,
 .teacher-panel-notices .adminNotices {

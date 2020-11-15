@@ -17,6 +17,7 @@
   background: indigo;
   color: #ffffff;
 }
-.subjects a:hover {
+.subjects a:hover,
+.subjects .updateButton:hover {
   color: #ffffff;
 }

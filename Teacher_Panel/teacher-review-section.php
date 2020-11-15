@@ -23,8 +23,8 @@
 <!--START OF PROFILES SECTION -->
    <?php include "./header.php" ?>
 
-<section class="teacher-panel mb-5">
-    <div class="container user-profile mt-2">
+<section class="teacher-panel">
+    <div class="container user-profile">
         <div class="row border py-4">
             <div class="col-12  col-md-5 profileBox text-center">                    
                 <img src="reviewPic-5.jpeg" alt="" class="img-fluid mt-3">

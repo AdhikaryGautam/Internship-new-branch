@@ -24,7 +24,7 @@
 <!--START OF TEACHER-PANEL SECTION -->
 
 <section class="teacher-panel">
-    <div class="container asssignmentSubmissions border">
+    <div class="container asssignmentSubmissions border py-4">
 
         <h4 class="ml-3 mb-3">Assignment-1</h4>
 
@@ -63,7 +63,7 @@
                     <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#feedbackModal">Send feedback  <span><i class="fas fa-comment-dots"></i></span></a>
 
                     <!-- The Modal -->
-                        <div class="modal" id="feedbackModal">
+                        <div class="modal fade" id="feedbackModal">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
 

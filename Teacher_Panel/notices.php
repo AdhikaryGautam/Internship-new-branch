@@ -33,7 +33,7 @@
                     <div class="teacherNotices">
                         <h4 class="ml-4 mt-3">Notices</h4>
                         <hr>
-                        <a href="#/" class="btn text-light ml-4" data-toggle="modal" data-target="#newNotice">New Notice</a>
+                        <a href="#/" class="btn btns text-light ml-4" data-toggle="modal" data-target="#newNotice">New Notice</a>
     
 
                         <!-- The Modal -->
@@ -59,8 +59,8 @@
                         
                                     <!-- Modal footer -->
                                     <div class="modal-footer">
-                                        <a href="#/" type="button" class="btn text-light">Post</a>
-                                        <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                        <a href="#/" type="button" class="btn text-light btns">Post</a>
+                                        <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                     </div>
                         
                                 </div>
@@ -78,8 +78,8 @@
                     
                         <div class="col-xl-6">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>                    
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>                    
                         </div>
                     
                     </div>
@@ -107,8 +107,8 @@
                     
                                 <!-- Modal footer -->
                                 <div class="modal-footer">
-                                    <a href="#/" type="button" class="btn text-light">Post</a>
-                                    <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                    <a href="#/" type="button" class="btn text-light btns">Post</a>
+                                    <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                 </div>
                     
                             </div>
@@ -135,7 +135,7 @@
                                 <!-- Modal footer -->
                                 <div class="modal-footer">
                                     <a href="#/" type="button" class="btn text-light btn-danger">Delete</a>
-                                    <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                 </div>
                     
                             </div>
@@ -154,9 +154,9 @@
                     
                         <div class="col-xl-6 ">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0 btns" data-toggle="modal"
                                 data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>
                         </div>
                     
@@ -173,10 +173,10 @@
                     
                         <div class="col-xl-6 ">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneEdit">Edit<span class="ml-2"><i
                                         class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneDelete">Delete <span><i
                                         class="far fa-trash-alt"></i></span></a>
                         </div>
@@ -194,9 +194,9 @@
                     
                         <div class="col-xl-6 ">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>
                         </div>
                     
@@ -213,9 +213,9 @@
                     
                         <div class="col-xl-6 ">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>
                         </div>
                     
@@ -232,9 +232,9 @@
                     
                         <div class="col-xl-6 ">
                             <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneEdit">Edit<span class="ml-2"><i class="far fa-edit"></i></span></a>
-                            <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
+                            <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal"
                                 data-target="#oneDelete">Delete <span><i class="far fa-trash-alt"></i></span></a>
                         </div>
                     
@@ -369,7 +369,7 @@
                         <div class="teacherNotices">
                             <h4 class="ml-4 pt-3">Notices</h4>
                             <hr>
-                            <a href="#/" class="btn text-light ml-4" data-toggle="modal" data-target="#newNoticeSmallScreen">New Notice</a>
+                            <a href="#/" class="btn  btns text-light ml-4" data-toggle="modal" data-target="#newNoticeSmallScreen">New Notice</a>
         
         
                             <!-- The Modal -->
@@ -395,8 +395,8 @@
         
                                         <!-- Modal footer -->
                                         <div class="modal-footer">
-                                            <a href="#/" type="button" class="btn text-light">Post</a>
-                                            <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                            <a href="#/" type="button" class="btn text-light btns ">Post</a>
+                                            <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                         </div>
         
                                     </div>
@@ -415,10 +415,10 @@
         
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#deleteSmallScreen">Delete <span><i
                                                 class="far fa-trash-alt"></i></span></a>
                                 </div>
@@ -449,8 +449,8 @@
         
                                         <!-- Modal footer -->
                                         <div class="modal-footer">
-                                            <a href="#/" type="button" class="btn text-light">Post</a>
-                                            <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                            <a href="#/" type="button" class="btn  btns text-light">Post</a>
+                                            <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                         </div>
         
                                     </div>
@@ -477,7 +477,7 @@
                                         <!-- Modal footer -->
                                         <div class="modal-footer">
                                             <a href="#/" type="button" class="btn text-light btn-danger">Delete</a>
-                                            <button type="button" class="btn text-light" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn text-light btn-primary" data-dismiss="modal">Cancel</button>
                                         </div>
         
                                     </div>
@@ -496,10 +496,10 @@
         
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#deleteSmallScreen">Delete <span><i
                                                 class="far fa-trash-alt"></i></span></a>
                                 </div>
@@ -518,9 +518,9 @@
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
                                     <a href="#/" role="button"
-                                        class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
+                                        class="btn  btns text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#deleteSmallScreen">Delete
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0" data-toggle="modal" data-target="#deleteSmallScreen">Delete
                                         <span><i class="far fa-trash-alt"></i></span></a>
                                 </div>
         
@@ -537,10 +537,10 @@
         
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn  btns text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#deleteSmallScreen">Delete <span><i
                                                 class="far fa-trash-alt"></i></span></a>
                                 </div>
@@ -558,10 +558,10 @@
         
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#deleteSmallScreen">Delete <span><i
                                                 class="far fa-trash-alt"></i></span></a>
                                 </div>
@@ -579,10 +579,10 @@
         
                                 <div class="col-xl-6 ">
                                     <p class="d-none d-xl-block"><strong>Posted on</strong>: 2020-10-14</p>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#editSmallScreen">Edit<span class="ml-2"><i
                                                 class="far fa-edit"></i></span></a>
-                                    <a href="#/" role="button" class="btn text-decoration-none text-white mt-2 mt-md-0"
+                                    <a href="#/" role="button" class="btn btns  text-decoration-none text-white mt-2 mt-md-0"
                                         data-toggle="modal" data-target="#deleteSmallScreen">Delete <span><i
                                                 class="far fa-trash-alt"></i></span></a>
                                 </div>
