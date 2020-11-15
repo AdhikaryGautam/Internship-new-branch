@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="teacher-assignment.css">
+    <link rel="stylesheet" href="./teacher-assignment.css">
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
 
@@ -22,9 +22,9 @@
        <?php include "./header.php" ?>
     <!--START OF TEACHER-PANEL SECTION -->
 
-    <section class="teacher-panel mt-5">
+    <section class="teacher-panel">
 
-        <div class="container assignmentUpload px-5 mb-2">
+        <div class="container assignmentUpload">
 
             <h3 class="ml-3 ">Assignment</h3>
 

@@ -19,8 +19,13 @@
 
 <body>
     <?php include "./header.php" ?>
-    <section class="hire-panel ">
-        <div class="container hireRequests mt-4">
+
+
+
+
+
+    <section class="hirePanel">
+        <div class="container hireRequests">
             <div class="hireRequest col-md-12 d-sm-inline-flex  justify-content-sm-between">
 
                 <div>
@@ -75,6 +80,16 @@
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
                             </div>
                             </form>
                         </div>
@@ -182,6 +197,17 @@
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
+
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
+                            </div>
                             </form>
                         </div>
 
@@ -250,6 +276,16 @@
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
+                            </div>
                             </form>
                         </div>
 
@@ -317,6 +353,16 @@
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Message:</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Accept
+                              </label>
+                            </div>
+                            <div class="form-check-inline">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Reject
+                              </label>
                             </div>
                             </form>
                         </div>

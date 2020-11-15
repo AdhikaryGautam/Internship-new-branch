@@ -1,3 +1,6 @@
+.teacher-panel {
+  margin: 8rem 0rem;
+}
 .notesUpload .notes {
   background: linear-gradient(120deg, #2669d4 0%, #52c2f7 100%);
   border-radius: 2px;

@@ -23,8 +23,8 @@
 
 <!--START OF TEACHER-PANEL SECTION -->
 
-<section class="teacher-panel mt-5 mb-5">
-    <div class="container asssignmentSubmissions border p-4">
+<section class="teacher-panel">
+    <div class="container asssignmentSubmissions border">
 
         <h4 class="ml-3 mb-3">Assignment-1</h4>
 
