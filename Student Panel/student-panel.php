@@ -368,7 +368,13 @@
 
     <?php include "./footer.php" ?>
 
+    <script>
+        $(".notification").click(function () {
+            $(this).css("background-color", "#f5f5f5");
+            $(this).css("border-left", "none");
+        });
 
+    </script>
 
 
 

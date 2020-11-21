@@ -27,6 +27,7 @@
 }
 .mainstudentPanel .notifications .notification {
   background: #edf2fa;
+  border-left: 3px solid #070052;
   cursor: pointer;
 }
 .mainstudentPanel .notifications {

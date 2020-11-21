@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.student-enroll-form {
+  margin: 7rem 0rem 2rem;
+}
+.student-enroll-form-container {
+  background: linear-gradient(120deg, #2669d4 0%, #52c2f7 100%);
+}
+.student-enroll-form .btn {
+  background-color: indigo;
+}
+.student-enroll-form #noOfStudents-form {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .student-enroll-form .student-enroll-form-container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .student-enroll-form .student-enroll-form-container {
+    width: 50%;
+  }
+}
+.student-enroll-form .sub .btn {
+  background-color: white;
+}
