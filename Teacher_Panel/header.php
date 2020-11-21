@@ -34,14 +34,14 @@
                 <span><i class="fas fa-bars"></i></span>
             </button>
              <div class="navbardropdowns d-lg-none p-2 mt-1 ml-2">
-                     <img src="./reviewPic-4.jpeg" alt="DropdownProfilePic" class="img-fluid">
-                     <div class="dropdown-content">
-                         <a class="dropdown-item" href="#/">Dashboard</a>
-                         <a class="dropdown-item" href="#/">Profile</a>
-                         <div class="dropdown-divider"></div>
-                         <a class="dropdown-item" href="#/">Logout</a>
-                     </div>
+                <img src="./reviewPic-4.jpeg" alt="DropdownProfilePicclass="img-fluid">
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="#/">Dashboard</a>
+                    <a class="dropdown-item" href="#/">Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#/">Logout</a>
                 </div>
+            </div>
             <div class="collapse navbar-collapse text-light justify-content-start row" id="navbarSupportedContent">
 
                 
@@ -69,11 +69,11 @@
                             <a class="nav-link hover" href="#"><span class="span mr-2"><i
                                         class="fas fa-scroll"></i></span>About Us</a>
                         </li>
-                        <li class="nav-item ml-auto mr-4">
-                            <form action="#/" class="form form-2">
-                                <input class="form-control input-2 mr-sm-2" type="search" placeholder="Search..">
-                                <span><i class="fa fa-search"></i></span>
-                            </form>
+                        <li class="nav-item ml-auto mr-0 form-2 d-none d-lg-block" id="searchNavItem">
+                            <!-- <form> -->
+                                <input class="searchBar" placeholder='Search...' type="search" id="searchBarId">
+                                <span id="searchSpan"><i class="fa fa-search" id="search-icon"></i> </span>
+                            <!-- </form> -->
                         </li>
                         <li class="nav-item dropdown hover mr-4">
                             <a class="nav-link pb-0" href="#/">
@@ -81,7 +81,7 @@
                                 Login
                             </a>
                         </li>
-                        <li class="nav-item mr-5 profilePicDropdown p-2 hover mt-1">
+                        <li class="nav-item mr-3 profilePicDropdown p-2 hover mt-1 d-none d-lg-block">
                            <div class="dropdowns">
                                 <img src="./reviewPic-4.jpeg" alt="DropdownProfilePic" class="img-fluid">
                                 <div class="dropdown-content">
@@ -103,6 +103,22 @@
 
    
     <!--Javascipt-->
+
+    <script>
+        var search=document.getElementById("search-icon");
+        var inputField= document.getElementById('searchBarId');
+        search.addEventListener("mouseover", mouseOver);
+        inputField.addEventListener("mouseover", mouseOver);
+        inputField.addEventListener("focusin", mouseOver);
+        inputField.addEventListener("focusout", mouseOut);
+        function mouseOver(){
+        
+            searchBarId.style.width="190px";
+        }
+        function mouseOut(){
+            searchBarId.style.width="0px";
+        }
+    </script>
    
     <!--JAVSCRIPT CDN OF BOOTSTRAP-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
