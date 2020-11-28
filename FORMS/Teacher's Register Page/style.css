@@ -1,0 +1,67 @@
+.register-section {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+.register-section .welcome-section {
+  background: linear-gradient(120deg, #5596ff 0%, #44abdb 100%);
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
+  padding: 3rem;
+}
+
+.register-section h3 {
+  font-size: 2rem;
+}
+.register-section .welcome-section button {
+  padding: 0.5rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, #458bfc 0%, #0e6e9b 100%);
+  border: none;
+  text-align: center;
+  border-radius: 1.3rem;
+}
+.register-section .welcome-section button:hover {
+  border: none;
+  background: #fdce34;
+  color: black;
+}
+.register-form {
+  box-shadow: 5px 2px 30px -26px rgba(0, 0, 0, 1);
+  border-radius: 0.3rem;
+}
+.register-form form {
+  padding: 2.3rem;
+}
+.register-form h3 {
+  color: #458bfc;
+}
+.register-section .input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.register-section .input-group span i {
+  padding: 10px;
+  background: linear-gradient(120deg, #458bfc 0%, #0e6e9b 100%);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.register-section .form-control {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.register-form button {
+  padding: 0.5rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, #458bfc 0%, #0e6e9b 100%);
+  border: none;
+  text-align: center;
+  border-radius: 1.3rem;
+  margin-bottom: 2.3rem;
+}
+.register-form button:hover {
+  background: #fdce34;
+  color: #000000;
+}

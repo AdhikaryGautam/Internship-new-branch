@@ -1,0 +1,35 @@
+.detail-section {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+.detail-section .info {
+  color: white;
+}
+.detail-section .detail {
+  box-shadow: 5px 2px 30px -26px rgba(0, 0, 0, 1);
+}
+.detail-section .input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.detail-section .input-group span i {
+  padding: 10px;
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  color: #000000;
+  min-width: 50px;
+  text-align: center;
+}
+label.btn {
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  border-radius: 0.2rem;
+}
+.detail-section button {
+  padding: 0.5rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, #2790ec 0%, #0275d8 100%);
+  border: none;
+  text-align: center;
+  border-radius: 1.3rem;
+  margin-bottom: 2.3rem;
+  width: 45%;
+}

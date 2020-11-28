@@ -1,0 +1,37 @@
+.teachers-id {
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+.teachers-id .main-section {
+  padding: 3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+.teachers-id .input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.teachers-id .input-group span i {
+  padding: 10px;
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  color: #000000;
+  min-width: 50px;
+  text-align: center;
+}
+label.btn {
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  border-radius: 0.2rem;
+}
+
+.checkbox-lg .custom-control-label::before,
+.checkbox-lg .custom-control-label::after {
+  top: 0.8rem;
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+.checkbox-lg .custom-control-label {
+  padding-top: 13px;
+  padding-left: 6px;
+}

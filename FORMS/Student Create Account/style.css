@@ -1,0 +1,49 @@
+.student-form-section {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+.student-form-section .student-info {
+  color: white;
+  background: linear-gradient(120deg, #8f12d3 0%, #0e6e9b 100%);
+}
+.student-form-section .student-form {
+  box-shadow: 5px 2px 30px -26px rgba(0, 0, 0, 1);
+}
+.student-form-section .input-group {
+  display: flex;
+  margin-bottom: 15px;
+  position: relative;
+}
+.student-form-section .input-group span i {
+  padding: 10px;
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  color: #000000;
+  min-width: 50px;
+  text-align: center;
+}
+.input-group span > #passwordEye {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  z-index: 2;
+  background: none;
+  color: black;
+}
+label.btn {
+  background: linear-gradient(120deg, #e2c25a 0%, #f8d86d 100%);
+  border-radius: 0.2rem;
+}
+.student-form-section button {
+  padding: 0.5rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, #47046b 0%, #8011af 100%);
+  border: none;
+  text-align: center;
+  border-radius: 1.3rem;
+  margin-bottom: 2.3rem;
+  width: 45%;
+}
+.student-form-section button:hover {
+  background: linear-gradient(120deg, #8f12d3 0%, #0e6e9b 100%);
+  color: white;
+}
