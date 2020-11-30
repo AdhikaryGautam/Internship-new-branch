@@ -4,12 +4,15 @@
 }
 .student-login-section .welcome-section {
   background: #457aa8;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   z-index: 1;
   padding: 3rem;
 }
-
+.student-login-section .welcome-section #studentLoginButton {
+  background: #d1a641;
+  color: #000000;
+}
 .student-login-section h3 {
   font-size: 2rem;
 }
@@ -30,7 +33,7 @@
   padding: 1.8rem;
 }
 .student-login-section .login-form h3 {
-  color: #8f12d3;
+  color: #000000;
   font-size: 2.5rem;
 }
 .student-login-section .input-group {
@@ -40,8 +43,8 @@
 }
 .student-login-section .input-group > span i {
   padding: 10px;
-  background: linear-gradient(120deg, #8f12d3 0%, #0e6e9b 100%);
-  color: white;
+  background: linear-gradient(120deg, #e2c25a 0%, #d1a641 100%);
+  color: #000000;
   min-width: 50px;
   text-align: center;
 }
@@ -61,11 +64,11 @@
 .student-login-section button {
   padding: 0.5rem;
   color: #ffffff;
-  background: linear-gradient(120deg, #47046b 0%, #8011af 100%);
+  background: #18363a;
   border: none;
   text-align: center;
   border-radius: 1.3rem;
 }
 .student-login-section button:hover {
-  background: linear-gradient(120deg, #8f12d3 0%, #0e6e9b 100%);
+  background: #18363a;
 }

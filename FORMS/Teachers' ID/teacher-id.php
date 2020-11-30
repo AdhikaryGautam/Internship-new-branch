@@ -234,7 +234,7 @@
                 >
               </div>
             </div>
-            <button type="submit" class="d-block mx-auto mt-5 btn btn-lg btn-primary">
+            <button type="submit" class="d-block mx-auto mt-5 btn btn-lg" id="submitButton">
               Submit<span><i class="fas fa-paper-plane ml-2"></i></span>
             </button>
           </form>

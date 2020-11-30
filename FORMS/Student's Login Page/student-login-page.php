@@ -25,11 +25,11 @@
   <body>
      <?php include "../header.php" ?>
     <section class="student-login-section">
-      <div class="container">
+      <div class="container-md">
         <div class="row">
-          <div class="card-group justify-content-center">
+          <div class="card-group justify-content-md-center">
             <div
-              class="card welcome-section col-lg-4 col-md-5 col-sm-12 text-center"
+              class="card welcome-section col-lg-4 col-md-5 col-sm-6 text-center"
             >
               <h3>Welcome</h3>
               <p class="mt-3">
@@ -42,7 +42,7 @@
               </a>
             </div>
 
-            <div class="card login-form col-lg-5 col-md-7 col-sm-12 pl-0">
+            <div class="card login-form col-lg-5 col-md-7 col-sm-6 pl-0">
               <h3 class="text-center mt-5">Login</h3>
               <form>
                 <div class="input-group">

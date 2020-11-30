@@ -24,11 +24,12 @@
   <body>
     <?php include "../header.php" ?>
       <section class="student-form-section">
-      <div class="container">
+      <div class="container-md">
         <div class="row">
           <div class="card-group justify-content-center">
+            <div class="col-lg-5 col-md-5 col-sm-12 p-0">
             <div
-              class=" text-center card student-info p-5 col-lg-5 col-md-5 col-sm-12"
+              class="text-center card student-info p-5 h-100"
             >
             <i class="fas fa-user-graduate fa-8x"></i>
               <h2 class="mt-5">Student's Detail</h2>
@@ -43,7 +44,9 @@
               </a>
               </div>
             </div>
-            <div class="card student-form col-lg-7 col-md-7 col-sm-12 p-5">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 p-0">
+            <div class="card student-form p-5 h-100">
               <h2 class="text-center">Create Account</h2>
               <form action="#" class="mt-3">
                 <div class="form-row">
@@ -178,6 +181,7 @@
                   Submit<span><i class="fas fa-paper-plane ml-2"></i></span>
                 </button>
               </form>
+            </div>
             </div>
           </div>
         </div>

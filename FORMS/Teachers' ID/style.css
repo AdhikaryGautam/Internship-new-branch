@@ -35,3 +35,7 @@ label.btn {
   padding-top: 13px;
   padding-left: 6px;
 }
+.teachers-id #submitButton {
+  background: #18363a;
+  color: #ffffff;
+}

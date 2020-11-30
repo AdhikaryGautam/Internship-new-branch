@@ -142,14 +142,14 @@
 
 .navbar-section .nav-item .searchBar {
   position: relative;
-  padding: 15px 24px 15px 10px;
+  padding: 17.5px 24.5px 15px 10px;
   width: 0px;
   height: 37.5px;
   font-size: 16px;
   margin-top: 0.6rem;
   letter-spacing: 2px;
-  border: 5px solid #edae49;
-  border-radius: 25px;
+  border: 4.7px solid #edae49;
+  border-radius: 20px;
   transition: width 0.6s ease;
   outline: none;
 }
@@ -161,8 +161,8 @@
 .navbar-section .nav-item #search-icon {
   position: relative;
   left: -34px;
-  bottom: 1px;
-  color: #070052;
+  bottom: 1.5px;
+  color: #18363a;
 }
 .navbar-section .nav-item #search-icon:hover {
   cursor: pointer;

@@ -25,11 +25,12 @@
   <body>
      <?php include "../header.php" ?>
     <section class="register-section">
-      <div class="container">
+      <div class="container-md">
         <div class="row">
           <div class="card-group justify-content-center">
+            <div class="col-lg-4 col-md-5 col-sm-6 p-0">
             <div
-              class="card welcome-section col-lg-4 col-md-5 col-sm-12 text-center"
+              class="card welcome-section text-center h-100"
             >
               <h3>Welcome</h3>
               <p class="mt-3">
@@ -43,8 +44,9 @@
               <button type="button" class="mt-3 btn">Sign Up</button>
               <a href="#/" class="mt-2 text-decoration-none text-light">Already Have An account?</a>
             </div>
-
-            <div class="card register-form col-lg-5 col-md-7 col-sm-12 pl-0">
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-6 p-0">
+            <div class="card register-form h-100">
               <h3 class="text-center mt-5">Create Account</h3>
               <form>
                 <div class="input-group">
@@ -90,9 +92,10 @@
                 />Show Password
                 
               </form>
-              <button type="submit" class="d-block w-25 mx-auto btn">
+              <button type="submit" class="d-block w-50 mx-auto btn">
                 Register
               </button>
+            </div>
             </div>
           </div>
         </div>

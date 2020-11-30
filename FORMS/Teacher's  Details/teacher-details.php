@@ -25,11 +25,12 @@
   <body>
      <?php include "../header.php" ?>
     <section class="detail-section">
-      <div class="container">
+      <div class="container-md">
         <div class="row">
-          <div class="card-group justify-content-center">
+          <div class="card-group">
+            <div class="col-lg-5 col-md-5 col-sm-12 text-center p-0">
             <div
-              class="card info p-5 col-lg-5 col-md-5 col-sm-12 text-center d-flex justify-content-center"
+              class="card info p-5 justify-content-center h-100 border-0"
             >
               <i class="fas fa-id-card-alt fa-5x"></i>
               <h2 class="mt-5">Teacher's Detail</h2>
@@ -38,7 +39,9 @@
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam accusamus omnis porro delectus voluptatibus consequuntur, sit et minus veritatis id?
               </p>
             </div>
-            <div class="card detail col-lg-7 col-md-7 col-sm-12 p-5">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 p-0"> 
+            <div class="card detail p-5 h-100 border-0">
               <h2 class="text-center">Create Id</h2>
               <form action="#" class="mt-3">
                 <div class="form-row">
@@ -152,6 +155,7 @@
                 </button>
               </form>
             </div>
+</div>
           </div>
         </div>
       </div>

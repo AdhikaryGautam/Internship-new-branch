@@ -19,24 +19,26 @@
 <body>
      <?php include "../header.php" ?>
     <section class="student-login-section">
-        <div class="container">
+        <div class="container-md">
             <div class="row">
                 <div class="card-group justify-content-center">
-                    <div class="card welcome-section col-lg-4 col-md-5 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-5 col-sm-6 p-0">
+                    <div class="card welcome-section text-center h-100 p-5">
                         <h3>Welcome</h3>
                         <p class="mt-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi eum illo suscipit
                             dolores eos aliquid adipisci, iste dolorem dolorum ea nisi excepturi voluptas, dicta
                             distinctio quam facere saepe at?
                         </p>
-                        <button type="button" class="mt-3 btn">Login As Student</button>
+                        <button type="button" class="mt-3 btn d-inline-block  mx-4" id="studentLoginButton">Login As Student</button>
                         <button type="button" class="mt-3 btn">Create Account</button>
                         <a href="#" class="text-decoration-none text-light">
                             <p class="mt-2">Dont't Have An account?</p>
                         </a>
                     </div>
-
-                    <div class="card login-form col-lg-4 col-md-7 col-sm-12">
+                    </div>
+                    <div class="col-lg-4 col-md-7 col-sm-6 p-0">
+                    <div class="card login-form h-100 p-2">
                         <h3 class="text-center mt-5">Login</h3>
                         <form>
                             <div class="input-group">
@@ -60,6 +62,7 @@
                             <a href="#/" class="text-decoration-none">Forgot Password?</a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
