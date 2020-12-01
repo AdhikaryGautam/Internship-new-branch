@@ -92,6 +92,27 @@
                     />
                     </div>
                   </div>
+
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="alternateNumber" class="pointer"
+                      >Alternate Number</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-phone-alt"></i></i></span>
+                    <input
+                      type="tel"
+                      id="alternateNumber"
+                      class="form-control"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <p>Online Payments</p>
+                  </div>
+
                   <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <label for="paymentOption"
                       >Payment Option</label
@@ -104,16 +125,101 @@
                       id="paymentOption"
                       required
                     >
-                      <option value="online">Online</option>
-                      <option value="bank">Bank</option>
+                      <option value="online">Esewa</option>
+                      <option value="bank">Khalti</option>
                     </select>
                     </div>
                   </div>
 
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="onlinePaymentId" class="pointer"
+                      >Online Payment Id(Esewa, Khalti)</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-money-check"></i></span>
+                    <input
+                      type="tel"
+                      id="onlinePaymentId"
+                      class="form-control"
+                      placeholder="Online Payment Id"
+                      required
+                    />
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <p>Bank Details</p>
+                  </div>
+
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="accountName" class="pointer"
+                      >Account Name</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-user"></i></span>
+                    <input
+                      type="tel"
+                      id="accountName"
+                      class="form-control"
+                      placeholder="Full Account Name"
+                      required
+                    />
+                    </div>
+                  </div>
+
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="bankName" class="pointer"
+                      >Bank Name</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-university"></i></span>
+                    <input
+                      type="tel"
+                      id="bankName"
+                      class="form-control"
+                      placeholder="Bank Name"
+                      required
+                    />
+                    </div>
+                  </div>
+
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="bankBranch" class="pointer"
+                      >Bank Branch</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-university"></i></span>
+                    <input
+                      type="tel"
+                      id="bankBranch"
+                      class="form-control"
+                      placeholder="Bank Branch Name"
+                      required
+                    />
+                    </div>
+                  </div>
+
+                  <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <label for="accountNumber" class="pointer"
+                      >Account Number</label
+                    >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fas fa-sort-numeric-up-alt"></i></span>
+                    <input
+                      type="tel"
+                      id="accountNumber"
+                      class="form-control"
+                      placeholder="Bank Account Number"
+                      required
+                    />
+                    </div>
+                  </div>
+
                   <div
-                    class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center"
+                    class="form-group col-xl-6 col-lg-4 col-md-6 col-sm-12 text-center"
                   >
                     <p>Identification Proof</p>
+                    <p>(Id, Citizenship, Driving License etc.)</p>
                     <div class="parent">
                       <label for="identificationProof" class="btn">
                         <span><i class="fas fa-cloud-upload-alt mr-2"></i></span
@@ -122,11 +228,11 @@
                       </label>
                         <p class="file-upload-filename "></p>
                     </div>
+                    <p>(Max: 2MB)</p>
                   </div>
-                  <div
-                    class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center"
-                  >
+                  <div class="form-group col-xl-6 col-lg-4 col-md-6 col-sm-12 text-center">
                     <p>Education Certificate</p>
+                    <p>(Accepts multiple files)</p>
                     <div class="parent">
                       <label for="educationCertificate" class="btn">
                         <span><i class="fas fa-cloud-upload-alt mr-2"></i></span
@@ -135,8 +241,9 @@
                       </label>
                       <p class="file-upload-filename"></p>
                     </div>
+                    <p>(Max: 6MB)</p>
                   </div>
-                  <div
+                  <!-- <div
                     class="form-group col-xl-4 col-lg-4 col-md-6 mx-auto col-sm-12 text-center"
                   >
                     <p>Payment Detail</p>
@@ -148,7 +255,7 @@
                       </label>
                       <p class="file-upload-filename"></p>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
                 <button type="button" class="d-block mx-auto mt-4 btn">
                   Submit<span><i class="fas fa-paper-plane ml-2"></i></span>
